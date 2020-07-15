@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './Assets/css/output.css';
+
+// import bg_decoration from './Assets/Imgs/BG-Decoration.svg';
+import personal_logo from './Assets/Imgs/PersonalLogo_DarkBG.png';
+
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="main-bg">
+        {/* <img src={ bg_decoration } alt="background decoration" className="absolute z-0"/> */}
+        <Navbar className="z-20"></Navbar>
+        <img src={ personal_logo } alt="personal logo decoration" className="absolute right-0 bottom-0"/>
+      </div>
+    </>
   );
 }
 

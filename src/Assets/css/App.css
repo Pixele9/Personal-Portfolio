@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{ 
+	font-family: 'Druk-Wide';
+    src: url('./Assets/fonts/Druk Wide Bold.ttf') format('tff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-bg {
+	background-color: #1C1C1C;
+}
+
+.navbar {
+	background-color: #323232;
+}
+
+.logo-continer {
+	background-color: #232323;
+}
+
+.h-25-rem {
+	height: 25rem;
+}
