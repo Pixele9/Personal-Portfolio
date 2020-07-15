@@ -2,15 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{ 
+/* @font-face{ 
 	font-family: 'Druk-Wide';
-    src: url('./Assets/fonts/Druk Wide Bold.ttf') format('tff');
+    src: url('./Assets/fonts/Druk_Wide_Bold.ttf') format('tff');
     font-weight: normal;
     font-style: normal;
+} */
+
+@import url("//db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk + Wide + Bold");
+
+@font-face {
+	font-family: "Druk-Wide";
+	src: url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot");
+	src: url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.eot?#iefix")
+			format("embedded-opentype"),
+		url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff2")
+			format("woff2"),
+		url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.woff")
+			format("woff"),
+		url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.ttf")
+			format("truetype"),
+		url("//db.onlinewebfonts.com/t/2206d6cc490084998d531e8c1b2cbb4a.svg#Druk Wide Bold")
+			format("svg");
 }
 
 .main-bg {
-	background-color: #1C1C1C;
+	background-color: #1c1c1c;
 }
 
 .navbar {
@@ -23,4 +40,14 @@
 
 .h-25-rem {
 	height: 25rem;
+}
+
+.main-title {
+	font-family: "Druk-Wide";
+	color: white;
+}
+
+.description-text {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
 }

@@ -10,7 +10,7 @@ import contact_icon from '../Assets/Imgs/ContactIcon.png';
 
 export default function Navbar() {
 	return (
-		<div className="navbar w-20 h-screen justify-center">
+		<div className="navbar object-left w-20 h-screen justify-center">
 			<div className="flex logo-continer justify-center items-center flex-col w-20 h-20">
 				<img src={ logo } alt="personal logo" className="w-12" />
 			</div>
