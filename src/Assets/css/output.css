@@ -17916,6 +17916,10 @@ video {
   color: #fff;
 }
 
+.mt-16per {
+  margin-top: 10%;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;

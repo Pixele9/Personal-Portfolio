@@ -6,21 +6,21 @@ import hello_image from '../Assets/Imgs/bitmoji.png';
 export default function AboutMe() {
 	return(
 		<>
-			<div className="overflow-hidden">
+			<div className="z-0 overflow-hidden">
 				<img src={ bg_decoration } alt="background decoration" className="absolute z-0 top-0 left-0 sm:w-8/12 md:w-10/12 md:h-auto lg:w-auto"/>
 			</div>
-			<div className="z-10 mt-20 ml-10 mr-6 sm:mr-10 md:ml-12 md:mt-32 md:mr-10 lg:mt-40 lg:ml-24">
+			<div className="z-10 mt-20 ml-10 mr-6 sm:mr-10 md:ml-12 md:mt-32 md:mr-10 mt-16per lg:ml-24">
 				<p className="main-title text-3xl sm:text-5xl lg:text-6xl ">About Me</p>
-				<div className="text-xs lg:mr-64 lg:pr-16">
-					<p className="description-text text-md mt-3 sm:text-md md:text-lg md:mt-4 lg:text-xl">
+				<div className="z-10 text-xs lg:mr-64 lg:pr-32">
+					<p className="description-text text-md mt-3 sm:text-md md:text-lg md:mt-4 lg:text-lg">
 						I’m a web developer in constant search for growth, professionaly  and in daily life. 
 						<br/>In technology I find inspiration to create and develop better tools for people around the globe
 					</p>
-					<p className="description-text text-md mt-3 sm:text-md md:text-lg md:mt-4 lg:text-xl">
+					<p className="description-text text-md mt-5 sm:text-md md:text-lg md:mt-6 lg:text-lg">
 						When I’m not coding and learning new technologies I really enjoy music, design, hanging out 
 						with people I love self developemnt.
 					</p>
-					<p className="description-text text-md mt-3 sm:text-md md:text-lg md:mt-4 lg:text-xl">
+					<p className="description-text text-md mt-5 sm:text-md md:text-lg md:mt-6 lg:text-lg">
 						I deeply believe in technology being the best way to change our future to a better one, discover
 						new incredible things about our universe, connect with people, find new inspiration where no one
 						expected to, express ourselves, and many more things.
