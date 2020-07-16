@@ -20,16 +20,16 @@ export default function Navbar() {
 						<img src={ home_icon } alt="home icon" className="w-8"/>
 					</a>
 					<a href="/">
-						<img src={ aboutme_icon } alt="about me icon" className="w-6"/>
+						<img src={ mywork_icon } alt="my work icon" className="w-8"/>
 					</a>
 					<a href="/">
 						<img src={ skills_icon } alt="skills icon" className="w-8"/>
 					</a>
 					<a href="/">
-						<img src={ mywork_icon } alt="my work icon" className="w-8"/>
+						<img src={ aboutme_icon } alt="about me icon" className="w-6"/>
 					</a>
 					<a href="/">
-						<img src={ contact_icon } alt="contact icon" className="w-8"/>
+						<img src={ contact_icon } alt="contact icon" className="w-6"/>
 					</a>
 				</div>
 			</div>
