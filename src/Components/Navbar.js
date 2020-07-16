@@ -18,29 +18,21 @@ export default function Navbar() {
 			</div>
 			<div className="icon-section flex justify-center items-center mt-24">
 				<div className="icons flex flex-col justify-around h-25-rem items-center">
-					<a href="/">
+					<Link to="/">
 						<img src={ home_icon } alt="home icon" className="w-8"/>
-					</a>
-					<a href="/">
-						<Link to="/projects">
-							<img src={ mywork_icon } alt="my work icon" className="w-8"/>
-						</Link>
-					</a>
-					<a href="/">
-						<Link to="/skills">
-							<img src={ skills_icon } alt="skills icon" className="w-8"/>
-						</Link>
-					</a>
-					<a href="/">
-						<Link to="/about">
-							<img src={ aboutme_icon } alt="about me icon" className="w-6"/>
-						</Link>
-					</a>
-					<a href="/">
-						<Link to="/contact">
-							<img src={ contact_icon } alt="contact icon" className="w-6"/>
-						</Link>
-					</a>
+					</Link>
+					<Link to="/projects">
+						<img src={ mywork_icon } alt="my work icon" className="w-8"/>
+					</Link>
+					<Link to="/skills">
+						<img src={ skills_icon } alt="skills icon" className="w-8"/>
+					</Link>
+					<Link to="/about">
+						<img src={ aboutme_icon } alt="about me icon" className="w-6"/>
+					</Link>
+					<Link to="/contact">
+						<img src={ contact_icon } alt="contact icon" className="w-6"/>
+					</Link>
 				</div>
 			</div>
 		</div>
