@@ -8,9 +8,11 @@ import skills_icon from '../Assets/Imgs/SkillsIcon.png';
 import mywork_icon from '../Assets/Imgs/MyWorkIcon.png';
 import contact_icon from '../Assets/Imgs/ContactIcon.png';
 
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
 	return (
-		<div className="navbar object-left w-20 h-screen justify-center">
+		<div className="navbar z-10 object-left w-20 h-screen justify-center">
 			<div className="flex logo-continer justify-center items-center flex-col w-20 h-20">
 				<img src={ logo } alt="personal logo" className="w-12" />
 			</div>
@@ -20,16 +22,24 @@ export default function Navbar() {
 						<img src={ home_icon } alt="home icon" className="w-8"/>
 					</a>
 					<a href="/">
-						<img src={ mywork_icon } alt="my work icon" className="w-8"/>
+						<Link to="/projects">
+							<img src={ mywork_icon } alt="my work icon" className="w-8"/>
+						</Link>
 					</a>
 					<a href="/">
-						<img src={ skills_icon } alt="skills icon" className="w-8"/>
+						<Link to="/skills">
+							<img src={ skills_icon } alt="skills icon" className="w-8"/>
+						</Link>
 					</a>
 					<a href="/">
-						<img src={ aboutme_icon } alt="about me icon" className="w-6"/>
+						<Link to="/about">
+							<img src={ aboutme_icon } alt="about me icon" className="w-6"/>
+						</Link>
 					</a>
 					<a href="/">
-						<img src={ contact_icon } alt="contact icon" className="w-6"/>
+						<Link to="/contact">
+							<img src={ contact_icon } alt="contact icon" className="w-6"/>
+						</Link>
 					</a>
 				</div>
 			</div>
