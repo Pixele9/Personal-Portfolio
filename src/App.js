@@ -13,7 +13,7 @@ function App() {
 		<div className="flex flex-col md:flex-row main-bg">
 			<Router>
 				<Navbar />
-				<div className="main-content">
+				<div className="main-content h-screen">
 					<Switch>
 						<Route exact path="/" component={ HomePage }/>
 						<Route path="/about" component={ AboutPage }/>

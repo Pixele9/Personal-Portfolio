@@ -6,8 +6,8 @@ import personal_logo from '../Assets/Imgs/PersonalLogo_DarkBG.png';
 export default function HomePage() {
 	return(
 		<>
-			<div className="overflow-hidden">
-				<img src={ bg_decoration } alt="background decoration" className="absolute z-0 top-0 left-0 sm:w-8/12 md:w-10/12 md:h-auto lg:w-auto"/>
+			<div className="overflow-hidden pointer-events-none">
+				<img src={ bg_decoration } alt="background decoration" className="absolute z-0 top-0 left-0 w-screen sm:w-8/12 md:w-10/12 md:h-auto lg:w-auto"/>
 			</div>
 			<div className="z-10 mt-20 ml-10 mr-6 sm:mr-10 md:ml-12 md:mt-32 md:mr-10 lg:mt-40 lg:ml-24">
 				<p className="main-title text-3xl sm:text-5xl lg:text-6xl ">Hi, I'm Andrés Leal</p>

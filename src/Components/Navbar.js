@@ -17,7 +17,7 @@ export default function Navbar() {
 				<img src={ logo } alt="personal logo" className="w-12" />
 			</div>
 			{/* <div className="icon-section md:mt-24"> */}
-				<div className="icons flex flex-grow md:flex-col justify-around h-20 px-3 md:h-400 h-25-rem h-2 items-center md:mt-24">
+				<div className="icons flex flex-grow md:flex-col justify-around h-20 px-3 md:h-400 h-25-rem items-center md:mt-24">
 					<Link to="/">
 						<img src={ home_icon } alt="home icon" className="w-8"/>
 					</Link>
