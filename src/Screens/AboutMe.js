@@ -17,18 +17,18 @@ export default function AboutMe() {
 						<br/>In technology I find inspiration to create and develop better tools for people around the globe
 					</p>
 					<p className="description-text text-md mt-5 sm:text-md md:text-lg md:mt-6 lg:text-lg">
-						When I’m not coding and learning new technologies I really enjoy music, design, hanging out 
-						with people I love self developemnt.
+						When I’m not coding and learning new technologies, I really enjoy music, design, hanging out 
+						with friends, applying self developemnt.
 					</p>
-					<p className="description-text text-md mt-5 sm:text-md md:text-lg md:mt-6 lg:text-lg">
+					{/* <p className="description-text text-md mt-5 sm:text-md md:text-lg md:mt-6 lg:text-lg">
 						I deeply believe in technology being the best way to change our future to a better one, discover
 						new incredible things about our universe, connect with people, find new inspiration where no one
 						expected to, express ourselves, and many more things.
-					</p>
+					</p> */}
 				</div>
 
 			</div>
-			<img src={ hello_image } alt="personal logo decoration" className="absolute right-0 bottom-0 w-8/12 sm:w-1/2 md:w-6/12 lg:w-4/12 
+			<img src={ hello_image } alt="personal logo decoration" className="z-0 absolute right-0 bottom-0 w-8/12 sm:w-1/2 md:w-6/12 lg:w-4/12 
 			xl:h-4/12"/>
 		</>
 	);
