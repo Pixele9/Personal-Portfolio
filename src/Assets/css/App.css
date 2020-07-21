@@ -55,3 +55,11 @@
 .mt-16per {
 	margin-top: 10%;
 }
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+.main-content::-webkit-scrollbar {
+	display: none;
+}
