@@ -13,7 +13,7 @@ export default function MyWork() {
 			<div className="z-10 mt-10 ml-10 mr-6 sm:mr-10 md:ml-12 md:mt-12 md:mr-10 lg:mt-16 lg:ml-24">
 				<h1 className="main-title text-3xl sm:text-5xl lg:text-6xl">My Work</h1>
 			</div>
-			<div className="grid grid-cols-1 md:grid-cols-3 ">
+			<div className="sm:ml-10 mt-10 grid grid-cols-1 row-gap-5 md:row-gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 				<ProjectGrid image={ PLE } project_title="Personal Learning Environment" />
 				<ProjectGrid image={ CorrelationCOVID } project_title="Correlation COVID-19" />
 				<ProjectGrid image={ GitHubClient } project_title="GitHub Client" />
