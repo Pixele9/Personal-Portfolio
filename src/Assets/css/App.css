@@ -63,3 +63,11 @@ body::-webkit-scrollbar {
 .main-content::-webkit-scrollbar {
 	display: none;
 }
+
+.eye-icon {
+	display: none;
+}
+
+.montserrat {
+	font-family: "Montserrat", sans-serif;
+}

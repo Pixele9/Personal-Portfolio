@@ -18114,6 +18114,14 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.eye-icon {
+  display: none;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
