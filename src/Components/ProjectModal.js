@@ -1,7 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 export default function ProjectModal(props) {
-	return(
+	return ReactDOM.createPortal(
 		<div className="absolute flex flex-col sm:flex-row rounded-lg w-8/12 bg-white ">
 			<div className="left flex flex-col">
 				<img src={ props.image1 } alt="project img" className="rounded mx-5 mt-5"/>
@@ -15,6 +16,7 @@ export default function ProjectModal(props) {
 				<h3 className="text-xl montserrat font-bold mt-6">What I learned:</h3>
 				<p>{ props.learned }</p>
 			</div>
-		</div>
+		</div>,
+		document.getElementById("modal-root")
 	);
 }
