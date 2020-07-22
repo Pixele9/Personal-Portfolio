@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 export default function ProjectModal(props) {
 	return ReactDOM.createPortal(
-		<div className="absolute flex flex-col sm:flex-row rounded-lg w-8/12 bg-white ">
+		<div className="fixed flex flex-col sm:flex-row rounded-lg w-8/12 bg-white ">
 			<div className="left flex flex-col">
 				<img src={ props.image1 } alt="project img" className="rounded mx-5 mt-5"/>
 				<img src={ props.image2 } alt="project img" className="rounded m-5 mb-5"/>

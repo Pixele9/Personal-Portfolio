@@ -62,9 +62,10 @@ export default function MyWork() {
 						/>
 					</ModalContext.Provider>
 					{
+						// Render modal only if clicked on project
 						modalState.showModal ? (
 							<Modal
-								className=""
+								className="flex justify-center items-center"
 								image1={PLE}
 								image2={PLE}
 								projectName="Personal Learning Environment"
