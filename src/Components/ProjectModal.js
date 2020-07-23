@@ -26,6 +26,8 @@ export default function ProjectModal(props) {
 				<span className="close float-right font-bold text-gray-700 text-2xl cursor-pointer hover:text-black" onClick={_closeModal}>&times;</span>
 				<div className="p-5 sm:p-10">
 					<h1 className="font-bold text-3xl montserrat">{ props.projectName }</h1>
+					<h3 className="text-xl montserrat font-bold mt-6">Technologies Used:</h3>
+					<p>{ props.technologies}</p>
 					<h3 className="text-xl montserrat font-bold mt-6">Project Description:</h3>
 					<p>{ props.description }</p>
 					<h3 className="text-xl montserrat font-bold mt-6">What I learned:</h3>
