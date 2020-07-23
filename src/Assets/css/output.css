@@ -737,6 +737,10 @@ video {
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .text-sm {
   font-size: 0.875rem;
 }
@@ -840,6 +844,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 
 .p-4 {
@@ -1162,6 +1170,10 @@ body::-webkit-scrollbar {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:flex-col {
