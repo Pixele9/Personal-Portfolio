@@ -11,7 +11,7 @@ export default function AboutMe() {
 			</div>
 			<div className="z-10 mt-20 ml-10 mr-6 sm:mr-10 md:ml-12 md:mt-32 md:mr-10 mt-16per lg:ml-24">
 				<p className="main-title text-3xl sm:text-5xl lg:text-6xl ">About Me</p>
-				<div className="z-10 text-xs lg:mr-64 lg:pr-32">
+				<div className="z-10 text-sm lg:mr-64 lg:pr-32">
 					<p className="description-text text-md mt-3 sm:text-md md:text-lg md:mt-4 lg:text-lg">
 						I’m a web developer in constant search for growth, professionaly  and in daily life. 
 						<br/>In technology I find inspiration to create and develop better tools for people around the globe

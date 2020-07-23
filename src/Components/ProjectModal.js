@@ -5,9 +5,6 @@ import { ModalContext } from '../Contexts/ModalContext';
 export default function ProjectModal(props) {
 	const { setModalState } = useContext(ModalContext)	
 
-	// const _closeModal = () => {
-	// 	setModalState({showModal: false})h
-	// };
 	const _closeModal = () => {
 		setModalState({showModal: false})
 	};
@@ -19,7 +16,8 @@ export default function ProjectModal(props) {
 			_closeModal()
 		}
 	}
-
+	
+	// Creation of a portal to add the modal on top of root (where the main app is being render)
 	return ReactDOM.createPortal(
 		<div className="modal-bg z-10 fixed flex flex-col sm:flex-row pt-32 left-0 top-0 w-full h-full overflow-auto bg-black bg-opacity-50">
 			<div className="bg-white m-auto p-5 sm:p-10 sm:w-2/3 rounded-lg">
@@ -35,7 +33,6 @@ export default function ProjectModal(props) {
 				</div>
 				<div className="flex flex-row justify-center relative pb-2/3 w-full h-auto">
 					<img src={ props.image } alt="project img" className="rounded m-5 object-contain"/>
-					{/* <img src={ props.image2 } alt="project img" className="rounded m-5"/> */}
 				</div>
 			</div>
 		</div>,

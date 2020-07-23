@@ -9,8 +9,6 @@ export default function ProjectGrid(props) {
 	const { modalState, setModalState } = useContext(ModalContext)
 	const { id, onClick } = props;
 
-	console.log("MODAL VALUE: ", modalState)
-
 	const _openModal = () => {
 		setModalState({showModal: true})
 	};

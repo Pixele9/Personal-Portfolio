@@ -23,7 +23,6 @@ export default function MyWork() {
 		setModalState({showModal: true})
 	};
 
-	//TODO:  Add Technologies Used on Each project
 	const proj_info = [
 		{
 			"image": PLE,
