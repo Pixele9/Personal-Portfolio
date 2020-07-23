@@ -13,12 +13,12 @@ export default function AboutMe() {
 				<p className="main-title text-3xl sm:text-5xl lg:text-6xl ">About Me</p>
 				<div className="z-10 text-sm lg:mr-64 lg:pr-32">
 					<p className="description-text text-md mt-3 sm:text-md md:text-lg md:mt-4 lg:text-lg">
-						I’m a web developer in constant search for growth, professionaly  and in daily life. 
+						I’m a web developer in constant search for growth, professionally  and in daily life. 
 						<br/>In technology I find inspiration to create and develop better tools for people around the globe
 					</p>
 					<p className="description-text text-md mt-5 sm:text-md md:text-lg md:mt-6 lg:text-lg">
 						When I’m not coding and learning new technologies, I really enjoy music, design, hanging out 
-						with friends, applying self developemnt.
+						with friends, applying self development.
 					</p>
 					{/* <p className="description-text text-md mt-5 sm:text-md md:text-lg md:mt-6 lg:text-lg">
 						I deeply believe in technology being the best way to change our future to a better one, discover
