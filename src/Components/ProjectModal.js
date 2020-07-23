@@ -32,7 +32,7 @@ export default function ProjectModal(props) {
 					<p>{ props.learned }</p>
 				</div>
 				<div className="flex flex-row justify-center relative pb-2/3 w-full h-auto">
-					<img src={ props.image1 } alt="project img" className="rounded m-5 object-contain"/>
+					<img src={ props.image } alt="project img" className="rounded m-5 object-contain"/>
 					{/* <img src={ props.image2 } alt="project img" className="rounded m-5"/> */}
 				</div>
 			</div>
