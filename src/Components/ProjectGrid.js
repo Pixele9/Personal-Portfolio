@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 // sm:bg-green-300 md:bg-green-700
 import { ModalContext } from '../Contexts/ModalContext';
 
-import Eye from '../Assets/Imgs/EyeIcon.png';
+// import Eye from '../Assets/Imgs/EyeIcon.png';
 
 export default function ProjectGrid(props) {
 	
@@ -13,7 +13,6 @@ export default function ProjectGrid(props) {
 
 	const _openModal = () => {
 		setModalState({showModal: true})
-		console.log("Open modal clicked!")
 	};
 
 	function handleClick() {
@@ -22,7 +21,7 @@ export default function ProjectGrid(props) {
 
 	return (
 		<div className="flex justify-center flex-col items-center" onClick={handleClick}>
-			<div className="relative pb-2/3" onClick={_openModal}>
+			<div className="relative project-card pb-2/3" onClick={_openModal}>
 				<img src={ props.image } alt="project view" className="rounded h-full w-full object-cover hover:opacity-50 cursor-pointer" />
 				{/* <img src={ Eye } alt="view project icon" className="eye-icon absolute hover:block h-7 w-10" /> */}
 			</div>
