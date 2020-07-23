@@ -2,6 +2,8 @@ import React from 'react';
 
 import bg_decoration from '../Assets/Imgs/BG-DecorationHome.png';
 import personal_logo from '../Assets/Imgs/PersonalLogo_DarkBG.png';
+import github from '../Assets/Imgs/GitHub-Mark.svg';
+import linkedin from '../Assets/Imgs/Linkedin-Logo.svg';
 
 export default function HomePage() {
 	return(
@@ -21,6 +23,14 @@ export default function HomePage() {
 			</div>
 			<img src={ personal_logo } alt="personal logo decoration" className="absolute right-0 bottom-0 w-8/12 sm:w-1/2 md:w-6/12 lg:w-4/12 
 			xl:h-4/12"/>
+			<div className="flex justify-center items-end bottom-0 ml-8 md:ml-10 lg:ml-20 p-4 absolute opacity-25">
+				<a href="https://github.com/Pixele9" target="_blank" rel='noopener noreferrer'>
+					<img src={github} alt="github icon" className="w-8 mt-5"/>
+				</a>
+				<a href="https://www.linkedin.com/in/andresleala/" target="_blank" rel='noopener noreferrer'>
+					<img src={linkedin} alt="LinkedIn icon" className="w-8 ml-5"/>
+				</a>
+			</div>
 		</>
 	);
 }
