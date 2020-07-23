@@ -17,6 +17,47 @@ import { ModalContext } from "../Contexts/ModalContext";
 
 export default function MyWork() {
 	const [modalState, setModalState] = useState({showModal: false});
+	// const { modalState, setModalState } = useContext(ModalContext)
+
+	const _openModal = () => {
+		setModalState({showModal: true})
+		console.log("Open modal clicked!")
+	};
+
+	const proj_info = [
+		{
+			"image": PLE,
+			"project_title": "Personal Learning Environment"
+		},
+		{
+			"image": CorrelationCOVID,
+			"project_title": "Correlation COVID-19"
+		},
+		{
+			"image": GitHubClient,
+			"project_title": "GitHub Client"
+		},
+		{
+			"image": PersonalityInsights,
+			"project_title": "Personality Insights"
+		},
+		{
+			"image": SocialApex,
+			"project_title": "Social Apex"
+		},
+		{
+			"image": FlipIt,
+			"project_title": "FlipIt!"
+		},
+		{
+			"image": LilyPad,
+			"project_title": "Lily Pad Motivation"
+		},
+		{
+			"image": PushUp,
+			"project_title": "Push Up Counter"
+		}
+	]
 
 	return (
 		<>
@@ -26,9 +67,19 @@ export default function MyWork() {
 						My Work
 					</h1>
 				</div>
-				<div className="mt-10 mb-10 grid grid-cols-1 col-gap-8 row-gap-8 sm:ml-10 md:row-gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+				<div className="mt-10 mb-10 grid grid-cols-1 col-gap-8 row-gap-8 sm:ml-10 md:row-gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 px-10">
 					<ModalContext.Provider value={{modalState, setModalState}}>
-						<ProjectGrid
+						{proj_info.map((info, idx) => (
+							<ProjectGrid
+								key={idx}
+								id={idx}
+								image={info.image}
+								project_title={info.project_title}
+								onClick={_openModal}
+							/>
+						))}
+
+						{/* <ProjectGrid
 							image={PLE}
 							project_title="Personal Learning Environment"
 						/>
@@ -59,8 +110,7 @@ export default function MyWork() {
 						<ProjectGrid 
 							image={PushUp} 
 							project_title="Push Up Counter"
-						/>
-					</ModalContext.Provider>
+						/> */}
 					{
 						// Render modal only if clicked on project
 						modalState.showModal ? (
@@ -75,6 +125,7 @@ export default function MyWork() {
 							/>
 						) : null
 					}
+					</ModalContext.Provider>
 				</div>
 			</div>
 			{/* <div className="flex items-center justify-center h-full w-full flex-grow absolute ">
