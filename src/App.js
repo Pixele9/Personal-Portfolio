@@ -6,6 +6,8 @@ import Navbar from "./Components/Navbar";
 import HomePage from "./Screens/HomePage";
 import AboutPage from "./Screens/AboutMe";
 import WorkPage from "./Screens/MyWork";
+import Skills from "./Screens/Skills";
+
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -19,6 +21,7 @@ function App() {
 						<Route exact path="/" component={ HomePage }/>
 						<Route path="/about" component={ AboutPage }/>
 						<Route path="/projects" component={ WorkPage }/>
+						<Route path="/skills" component={ Skills }/>
 					</Switch>
 				</div>
 			</Router>

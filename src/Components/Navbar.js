@@ -6,7 +6,7 @@ import home_icon from '../Assets/Imgs/HomeIcon.png';
 import aboutme_icon from '../Assets/Imgs/AboutMeIcon.png';
 import skills_icon from '../Assets/Imgs/SkillsIcon.png';
 import mywork_icon from '../Assets/Imgs/MyWorkIcon.png';
-import contact_icon from '../Assets/Imgs/ContactIcon.png';
+// import contact_icon from '../Assets/Imgs/ContactIcon.png';
 
 import { Link } from "react-router-dom";
 
@@ -30,9 +30,9 @@ export default function Navbar() {
 					<Link to="/about">
 						<img src={ aboutme_icon } alt="about me icon" className="w-4 md:w-6 hover:opacity-50"/>
 					</Link>
-					<Link to="/contact">
+					{/* <Link to="/contact">
 						<img src={ contact_icon } alt="contact icon" className="w-5 md:w-6 hover:opacity-50"/>
-					</Link>
+					</Link> */}
 				</div>
 			{/* </div> */}
 		</div>

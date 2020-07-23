@@ -6,7 +6,7 @@ import { ModalContext } from '../Contexts/ModalContext';
 
 export default function ProjectGrid(props) {
 	
-	const { modalState, setModalState } = useContext(ModalContext)
+	const { setModalState } = useContext(ModalContext)
 	const { id, onClick } = props;
 
 	const _openModal = () => {
