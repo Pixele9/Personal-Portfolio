@@ -5,6 +5,9 @@ import request from 'request';
 
 import PodcastCard from '../Components/PodcastCard';
 
+// https://developer.spotify.com/documentation/web-api/reference/shows/get-shows-episodes/
+// parse all spotify episodes and embed them here
+
 export default function Podcast() {
 	const [podcastData, setPodcastData] = useState({})
 
