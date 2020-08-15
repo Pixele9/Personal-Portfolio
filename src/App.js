@@ -7,7 +7,7 @@ import HomePage from "./Screens/HomePage";
 import AboutPage from "./Screens/AboutMe";
 import WorkPage from "./Screens/MyWork";
 import Skills from "./Screens/Skills";
-
+import Podcast from "./Screens/Podcast";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -22,6 +22,7 @@ function App() {
 						<Route path="/about" component={ AboutPage }/>
 						<Route path="/projects" component={ WorkPage }/>
 						<Route path="/skills" component={ Skills }/>
+						<Route path="/techforhumans" component={ Podcast }/>
 					</Switch>
 				</div>
 			</Router>

@@ -6665,6 +6665,11 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
+lodash@^4.17.10:
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+
 loglevel@^1.6.6:
   version "1.6.7"
   resolved "https://registry.yarnpkg.com/loglevel/-/loglevel-1.6.7.tgz#b3e034233188c68b889f5b862415306f565e2c56"
@@ -7154,6 +7159,14 @@ node-notifier@^5.4.2:
     semver "^5.5.0"
     shellwords "^0.1.1"
     which "^1.3.0"
+
+node-podcast-parser@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/node-podcast-parser/-/node-podcast-parser-2.3.0.tgz#f4e4ba9561ed2323992547f6781e320a25fb3985"
+  integrity sha512-6QVR8t3cl/eTYsSv7zW1fxLGWrXnxQ/5nEEbrq84/5amGurZVZCUqvK7NAdaRxIqA+86YlSca0zwoJIZnT9EoQ==
+  dependencies:
+    lodash "^4.17.10"
+    sax "1.1.5"
 
 node-releases@^1.1.52:
   version "1.1.52"
@@ -9437,6 +9450,11 @@ sass-loader@8.0.2:
     neo-async "^2.6.1"
     schema-utils "^2.6.1"
     semver "^6.3.0"
+
+sax@1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/sax/-/sax-1.1.5.tgz#1da50a8d00cdecd59405659f5ff85349fe773743"
+  integrity sha1-HaUKjQDN7NWUBWWfX/hTSf53N0M=
 
 sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
