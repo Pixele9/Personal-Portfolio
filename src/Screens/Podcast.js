@@ -109,9 +109,12 @@ export default function Podcast() {
 	}
 	return (
 		// getRSS() ? ( <h1>{podcastInfo[0]}</h1> ) : null
-		<div className="w-64 p-16">
-			sdfsdfsd
+		<div className="flex justify-center items-center h-full w-full flex-col bg-green-500">
+			<div className="bg-green-500 w-64 h-64 ">
+				<iframe src="https://open.spotify.com/embed/show/1DS3sGBnJehoRuORb3mHE0" width="100%" height="411" frameBorder="0" allowtransparency="true" allow="encrypted-media" title="podcast feed"></iframe>
+			</div>
 			{
+				
 				// console.log(podcastInfo)
 				// podcastInfo.map(data => (
 				// 	<PodcastCard />
